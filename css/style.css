@@ -152,7 +152,6 @@ body {
   }
 }
 
-
 .btn-link-big:active {
   background-color: var(--primary-shade);
   border-color: var(--primary-shade);
@@ -349,8 +348,6 @@ body {
     stroke: var(--primary-light);
   }
 }
-
-
 
 .btn-search:active .btn-search__svg {
   stroke: var(--primary-shade);
@@ -837,8 +834,8 @@ body {
 .playlists__img {
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: center;
-  object-position: center;
+  -o-object-position: 50% 20%;
+  object-position: 50% 20%;
 }
 
 .playlists__country {
@@ -881,6 +878,7 @@ body {
 .adv__picture {
   position: relative;
   padding-top: 10px;
+  text-align: center;
 }
 
 .adv__img {
@@ -893,8 +891,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 160px;
-  height: 160px;
+  width: 27%;
+  height: 27%;
   background-image: url("../img/adv-new.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -1267,6 +1265,20 @@ body {
 
 .form__input:invalid:placeholder-shown+.form__invalid-text::before {
   visibility: hidden;
+}
+
+.form__textarea:focus-visible:-moz-placeholder-shown,
+.form__input:focus-visible:-moz-placeholder-shown {
+  outline: none;
+  border-color: var(--primary-light);
+  background-color: var(--light-black);
+}
+
+.form__textarea:focus-visible:-ms-input-placeholder,
+.form__input:focus-visible:-ms-input-placeholder {
+  outline: none;
+  border-color: var(--primary-light);
+  background-color: var(--light-black);
 }
 
 .form__textarea:focus-visible:-moz-placeholder-shown,

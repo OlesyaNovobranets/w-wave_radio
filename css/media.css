@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1025px) {
   .container {
     max-width: 854px;
   }
@@ -101,7 +101,6 @@
   }
 
   .playlists__img {
-    width: 112px;
     height: 112px;
   }
 
@@ -117,9 +116,9 @@
   }
 
   .adv__picture::after {
-    top: 116px;
-    width: 100px;
-    height: 100px;
+    top: 118px;
+    width: 25%;
+    height: 25%;
   }
 
   .adv__wrapper-text {
@@ -179,7 +178,7 @@
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 769px) {
   .container {
     max-width: 569px;
   }
@@ -307,8 +306,8 @@
 
   .adv__picture::after {
     top: 0;
-    width: 160px;
-    height: 160px;
+    width: 33%;
+    height: 33%;
   }
 
   .adv__wrapper-text {
@@ -370,9 +369,9 @@
   }
 
   .footer__list {
-    -webkit-column-gap: 172px;
-    -moz-column-gap: 172px;
-    column-gap: 172px;
+    -webkit-column-gap: 32%;
+    -moz-column-gap: 32%;
+    column-gap: 32%;
   }
 
   .footer__item {
@@ -391,58 +390,23 @@
 
 }
 
-
 @media (max-width: 576px) {
-  .container {
-    max-width: 286px;
+  .footer__list {
+    -webkit-column-gap: 17%;
+    -moz-column-gap: 17%;
+    column-gap: 17%;
   }
+}
 
-  .header {
-    padding: 23px 0px 13px;
-  }
 
-  .header__container {
-    row-gap: 35px;
-    padding: 0 0 0 22px;
-    max-width: 320px;
-  }
-
-  .logo {
-    max-width: 97px;
-    height: 10px;
-  }
-
-  .nav__list {
-    -webkit-column-gap: 10px;
-    -moz-column-gap: 10px;
-    column-gap: 10px;
-  }
-
-  .btn-search {
-    top: -8px;
-    right: 32px;
-  }
-
-  .header::before {
-    height: 50px;
-  }
-
+@media (max-width: 480px) {
   .hero__title {
     margin-bottom: 8px;
     font-size: 32px;
   }
 
   .hero__text {
-    padding: 40px 0;
-  }
-
-  .section-desc {
-    font-size: 14px;
-  }
-
-  .btn-link-big {
-    padding: 15px 43px;
-    font-size: 16px;
+    padding: 70px 0;
   }
 
   .podcasts__title {
@@ -518,6 +482,166 @@
   }
 
   .shows {
+    padding: 140px 0 31px;
+  }
+
+  .shows__title {
+    top: -70px;
+  }
+
+  .shows__subtitle {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .text-small {
+    font-size: 9px;
+  }
+
+  .shows__link {
+    font-size: 12px;
+    color: var(--primary);
+  }
+
+  .shows__svg {
+    fill: var(--primary);
+  }
+
+
+  .shows__archive {
+    width: 100%;
+  }
+
+  .playlists__article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .playlists__subtitle {
+    font-size: 12px;
+  }
+
+  .playlists__country {
+    right: 0;
+  }
+
+  .playlists__wrapper-text {
+    gap: 6px;
+  }
+
+  .playlists__list {
+    row-gap: 30px;
+  }
+
+  .guests__wrapper {
+    width: 100%;
+  }
+
+  .adv__picture::after {
+    left: 15%;
+    top: -10px;
+  }
+
+  .adv__container {
+    gap: 32px;
+    padding: 54px 15px;
+  }
+
+  .adv__title {
+    width: 100%;
+    font-size: 35px;
+  }
+
+  .about__container {
+    padding: 55px 15px 53px;
+  }
+
+
+  .about__title {
+    margin-bottom: 11px;
+  }
+
+  .about__wrapper-top::before {
+    display: none;
+  }
+
+  .about__wrapper-top::after {
+    display: none;
+  }
+
+  .about__wrapper-top {
+    margin-bottom: 28px;
+  }
+
+  .about__subtitle {
+    margin-bottom: 4.5px;
+    width: 95%;
+    font-size: 14px;
+    line-height: 129%;
+  }
+
+  .about__picture {
+    margin-bottom: 9px;
+  }
+
+  .about__text {
+    font-size: 12px;
+    line-height: 133%;
+  }
+}
+
+
+@media (max-width: 321px) {
+  .container {
+    max-width: 286px;
+  }
+
+  .header {
+    padding: 23px 0px 13px;
+  }
+
+  .header__container {
+    row-gap: 35px;
+    padding: 0 0 0 22px;
+    max-width: 320px;
+  }
+
+  .logo {
+    max-width: 97px;
+    height: 10px;
+  }
+
+  .nav__list {
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+  }
+
+  .btn-search {
+    top: -8px;
+    right: 32px;
+  }
+
+  .header::before {
+    height: 50px;
+  }
+
+  .hero__text {
+    padding: 40px 0;
+  }
+
+  .section-desc {
+    font-size: 14px;
+  }
+
+  .btn-link-big {
+    padding: 15px 43px;
+    font-size: 16px;
+  }
+
+  .shows {
     padding: 94px 0 53px;
   }
 
@@ -561,28 +685,6 @@
 
   .shows__item--alive {
     background-image: url(../img/shows-alive-320.png);
-  }
-
-  .shows__subtitle {
-    margin-bottom: 5px;
-    font-size: 12px;
-  }
-
-  .text-small {
-    font-size: 9px;
-  }
-
-  .shows__link {
-    font-size: 12px;
-    color: var(--primary);
-  }
-
-  .shows__svg {
-    fill: var(--primary);
-  }
-
-  .shows__archive {
-    width: 100%;
   }
 
   .shows__wrapper-text {
@@ -633,10 +735,6 @@
     gap: 11px;
   }
 
-  .guests__wrapper {
-    width: 100%;
-  }
-
   .guests__about {
     font-size: 16px;
   }
@@ -663,41 +761,14 @@
     line-height: 183%;
   }
 
-  .playlists__article {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .playlists__subtitle {
-    font-size: 12px;
-  }
-
-  .playlists__country {
-    right: 0;
-  }
-
-  .playlists__wrapper-text {
-    gap: 6px;
-  }
-
-  .playlists__list {
-    row-gap: 30px;
-  }
-
   .adv__picture::after {
-    width: 62px;
-    height: 62px;
-  }
-
-  .adv__container {
-    gap: 32px;
-    padding: 54px 15px;
+    left: 0;
+    top: 0;
+    width: 27%;
+    height: 27%;
   }
 
   .adv__title {
-    width: 100%;
     margin-bottom: 10px;
   }
 
@@ -719,53 +790,18 @@
     font-size: 16px;
   }
 
-  .about__container {
-    padding: 55px 15px 53px;
-  }
-
   .about__desc {
     font-size: 14px;
-  }
-
-  .about__title {
-    margin-bottom: 11px;
+    line-height: 157%;
   }
 
   .about__desc:not(:last-child) {
     margin-bottom: 4px;
   }
 
-  .about__desc {
-    line-height: 157%;
-  }
-
-  .about__wrapper-top::before {
-    display: none;
-  }
-
-  .about__wrapper-top::after {
-    display: none;
-  }
-
-  .about__wrapper-top {
-    margin-bottom: 28px;
-  }
-
-  .about__subtitle {
-    margin-bottom: 4.5px;
-    width: 95%;
-    font-size: 14px;
-    line-height: 129%;
-  }
-
-  .about__picture {
-    margin-bottom: 9px;
-  }
-
   .about__text {
     font-size: 12px;
-    line-height: 133%;
-  }
+}
 
   .form__textarea {
     padding: 15px 23px;
